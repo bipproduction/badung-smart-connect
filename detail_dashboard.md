@@ -48,10 +48,10 @@
    - Menunjukkan perbandingan jumlah penduduk pada tahun tertentu dengan tahun sebelumnya.
    - Contoh: 
    
-| Tahun  | Jumlah Penduduk | Perubahan (%) |
-|--------|------------------|---------------|
-| 2022   | 1.200.000        | -              |
-| 2023   | 1.250.000        | +4.17         |
+| Tahun | Jumlah Penduduk | Perubahan (%) |
+| ----- | --------------- | ------------- |
+| 2022  | 1.200.000       | -             |
+| 2023  | 1.250.000       | +4.17         |
 
    - Informasi ini penting karena menjadi dasar untuk mengevaluasi ukuran populasi yang harus dilayani oleh pemerintah daerah dalam menyediakan layanan publik seperti pendidikan, kesehatan, infrastruktur, dan lain-lain.
    - Data jumlah penduduk ini dapat disajikan dalam bentuk angka mutlak, seperti "jumlah penduduk saat ini adalah 1.000.000 jiwa".
@@ -74,8 +74,8 @@
 |   25%   |*********************                           | Anak-anak (0-14 tahun)
 |   65%   |********************************************    | Dewasa Muda (15-64 tahun)
 |   10%   |************                                      | Lansia (65 tahun ke atas)
-|                                                          |
-|----------------------------------------------------------|
+|     |
+| --- |
 
 3. **Komposisi Gender**:
    - Ini adalah data yang menggambarkan jumlah dan persentase laki-laki serta perempuan di Kabupaten Badung.
@@ -141,19 +141,19 @@
    - Contoh: Berdasarkan proyeksi penduduk, diperkirakan bahwa populasi Kabupaten Badung akan mencapai 1 juta jiwa dalam 10 tahun ke depan, dengan pertumbuhan rata-rata 5% setiap tahun.
    - Analisis proyeksi penduduk membantu pemerintah dalam mengalokasikan sumber daya dengan lebih efisien dan merencanakan pengembangan wilayah yang berkelanjutan sesuai dengan kebutuhan penduduk yang diantisipasi. Misalnya, dengan memproyeksikan peningkatan jumlah penduduk, pemerintah dapat merencanakan pembangunan rumah sakit, sekolah, dan fasilitas umum lainnya untuk memenuhi kebutuhan masyarakat yang semakin bertambah.
   
-| Tahun  | Populasi Proyeksi (Jiwa) | Pertumbuhan (%) |
-|--------|---------------------------|-----------------|
-| 2023   | 1.250.000                 | -               |
-| 2024   | 1.312.500                 | 5               |
-| 2025   | 1.378.125                 | 5               |
-| 2026   | 1.447.031                 | 5               |
-| 2027   | 1.519.383                 | 5               |
-| 2028   | 1.595.352                 | 5               |
-| 2029   | 1.675.119                 | 5               |
-| 2030   | 1.758.875                 | 5               |
-| 2031   | 1.846.819                 | 5               |
-| 2032   | 1.939.160                 | 5               |
-| 2033   | 2.036.118                 | 5               |
+| Tahun | Populasi Proyeksi (Jiwa) | Pertumbuhan (%) |
+| ----- | ------------------------ | --------------- |
+| 2023  | 1.250.000                | -               |
+| 2024  | 1.312.500                | 5               |
+| 2025  | 1.378.125                | 5               |
+| 2026  | 1.447.031                | 5               |
+| 2027  | 1.519.383                | 5               |
+| 2028  | 1.595.352                | 5               |
+| 2029  | 1.675.119                | 5               |
+| 2030  | 1.758.875                | 5               |
+| 2031  | 1.846.819                | 5               |
+| 2032  | 1.939.160                | 5               |
+| 2033  | 2.036.118                | 5               |
 
 
 ## PEREKONOMIAN :
@@ -189,12 +189,12 @@
 ### Tabel Tingkat Pengangguran Kabupaten Badung (2019-2023)
 
 | Tahun | Tingkat Pengangguran (%) |
-|-------|-------------------------|
-| 2019  | 7                       |
-| 2020  | 6.5                     |
-| 2021  | 6                       |
-| 2022  | 5.5                     |
-| 2023  | 5                       |
+| ----- | ------------------------ |
+| 2019  | 7                        |
+| 2020  | 6.5                      |
+| 2021  | 6                        |
+| 2022  | 5.5                      |
+| 2023  | 5                        |
 
 3. **Sektor Ekonomi Utama**:
    - Ini mencakup informasi tentang sektor-sektor ekonomi yang memberikan kontribusi utama terhadap pertumbuhan ekonomi Kabupaten Badung.
@@ -204,7 +204,7 @@
    - Analisis sektor ekonomi utama membantu pemerintah dalam mengidentifikasi sektor-sektor yang menjadi pendorong utama pertumbuhan ekonomi dan mengalokasikan sumber daya dengan lebih efisien.
   
 | Sektor Ekonomi | Kontribusi terhadap PDRB (%) |
-|----------------|------------------------------|
+| -------------- | ---------------------------- |
 | Pariwisata     | 40                           |
 | Pertanian      | 30                           |
 | Perdagangan    | 15                           |
@@ -224,11 +224,11 @@
    - Setiap baris tabel mencakup informasi seperti tahun, jumlah investasi, asal negara investor, dan sektor tujuan investasi.
    - Contoh:
    
-| Tahun | Jumlah Investasi (dalam juta USD) | Asal Negara Investor | Sektor Tujuan Investasi  |
-|-------|-----------------------------------|----------------------|--------------------------|
-| 2023  | 100                               | China                | Pariwisata               |
-| 2023  | 80                                | Singapura            | Infrastruktur            |
-| 2023  | 50                                | Amerika Serikat      | Energi Terbarukan        |
+| Tahun | Jumlah Investasi (dalam juta USD) | Asal Negara Investor | Sektor Tujuan Investasi |
+| ----- | --------------------------------- | -------------------- | ----------------------- |
+| 2023  | 100                               | China                | Pariwisata              |
+| 2023  | 80                                | Singapura            | Infrastruktur           |
+| 2023  | 50                                | Amerika Serikat      | Energi Terbarukan       |
 
 2. **Grafik Batang Investasi Tahunan**:
    - Grafik ini menunjukkan jumlah investasi tahunan yang masuk ke Kabupaten Badung selama beberapa tahun terakhir.
@@ -264,11 +264,11 @@
    - Tabel ini menyajikan statistik tentang ketersediaan layanan kesehatan di Kabupaten Badung, termasuk jumlah rumah sakit, puskesmas, dan posyandu.
    - Contoh:
 
-| Jenis Layanan       | Jumlah |
-|---------------------|--------|
-| Rumah Sakit         | 10     |
-| Puskesmas           | 20     |
-| Posyandu            | 50     |
+| Jenis Layanan | Jumlah |
+| ------------- | ------ |
+| Rumah Sakit   | 10     |
+| Puskesmas     | 20     |
+| Posyandu      | 50     |
 
 2. **Grafik Pie Cakupan Imunisasi**:
    - Grafik pie ini memperlihatkan cakupan imunisasi di Kabupaten Badung dalam bentuk persentase.
@@ -293,11 +293,11 @@
    - Tabel ini mencakup data tentang capaian program kesehatan masyarakat, seperti angka kematian bayi dan prevalensi penyakit tertentu.
    - Contoh:
 
-| Indikator           | Angka/Perkiraan           |
-|---------------------|---------------------------|
-| Cakupan Imunisasi   | 90%                       |
-| Angka Kematian Bayi | 15 per 1.000 kelahiran   |
-| Prevalensi Penyakit | 5% (misalnya: malaria)   |
+| Indikator           | Angka/Perkiraan        |
+| ------------------- | ---------------------- |
+| Cakupan Imunisasi   | 90%                    |
+| Angka Kematian Bayi | 15 per 1.000 kelahiran |
+| Prevalensi Penyakit | 5% (misalnya: malaria) |
 
 2. **Pendidikan**:
    - Dashboard menampilkan statistik tentang ketersediaan dan aksesibilitas pendidikan, termasuk jumlah sekolah, jumlah murid, dan rasio murid-guru di Kabupaten Badung.
@@ -313,7 +313,7 @@
    - Contoh:
 
 | Jenis Pendidikan | Jumlah Sekolah | Jumlah Murid | Rasio Murid-Guru |
-|------------------|----------------|--------------|------------------|
+| ---------------- | -------------- | ------------ | ---------------- |
 | Sekolah Dasar    | 50             | 10.000       | 25:1             |
 | Sekolah Menengah | 30             | 7.000        | 30:1             |
 
@@ -338,11 +338,11 @@
    - Tabel ini mencakup data tentang tingkat partisipasi dan kualitas pendidikan di Kabupaten Badung.
    - Contoh:
 
-| Indikator            | Angka/Perkiraan |
-|----------------------|-----------------|
-| Tingkat Kelulusan    | 95%             |
-| Tingkat Partisipasi  | 90%             |
-| Kualitas Pendidikan  | Baik            |
+| Indikator           | Angka/Perkiraan |
+| ------------------- | --------------- |
+| Tingkat Kelulusan   | 95%             |
+| Tingkat Partisipasi | 90%             |
+| Kualitas Pendidikan | Baik            |
 
 3. **Infrastruktur**:
    - Dashboard menyajikan statistik tentang ketersediaan dan kualitas infrastruktur seperti jalan, jembatan, listrik, air bersih, dan sanitasi di Kabupaten Badung.
@@ -356,13 +356,13 @@
    - Tabel ini menyajikan statistik tentang ketersediaan infrastruktur utama di Kabupaten Badung, seperti jalan, jembatan, listrik, air bersih, dan sanitasi.
    - Contoh:
 
-| Jenis Infrastruktur | Jumlah/Kondisi                               |
-|----------------------|-----------------------------------------------|
-| Jalan Beraspal       | 200 km                                       |
-| Jembatan             | 50 buah (90% dalam kondisi baik)             |
-| Akses Listrik        | 80% rumah tangga memiliki akses              |
-| Akses Air Bersih     | 70% rumah tangga memiliki akses              |
-| Sanitasi             | 60% rumah tangga memiliki akses sanitasi      |
+| Jenis Infrastruktur | Jumlah/Kondisi                           |
+| ------------------- | ---------------------------------------- |
+| Jalan Beraspal      | 200 km                                   |
+| Jembatan            | 50 buah (90% dalam kondisi baik)         |
+| Akses Listrik       | 80% rumah tangga memiliki akses          |
+| Akses Air Bersih    | 70% rumah tangga memiliki akses          |
+| Sanitasi            | 60% rumah tangga memiliki akses sanitasi |
 
 2. **Grafik Lingkaran Akses Listrik dan Air Bersih**:
    - Grafik ini menampilkan persentase rumah tangga yang memiliki akses ke listrik dan air bersih di Kabupaten Badung.
@@ -414,12 +414,12 @@
    - Tabel ini menunjukkan distribusi pusat pelayanan sosial untuk berbagai kelompok rentan di Kabupaten Badung.
    - Contoh:
 
-| Kelompok Rentan       | Jumlah Pusat Pelayanan |
-|-----------------------|------------------------|
-| Anak                  | 10                     |
-| Lansia                | 5                      |
-| Penyandang Disabilitas | 5                     |
-| Kelompok Rentan Lainnya | 0                     |
+| Kelompok Rentan         | Jumlah Pusat Pelayanan |
+| ----------------------- | ---------------------- |
+| Anak                    | 10                     |
+| Lansia                  | 5                      |
+| Penyandang Disabilitas  | 5                      |
+| Kelompok Rentan Lainnya | 0                      |
 
 2. **Grafik Lingkaran Persentase Program Bantuan Sosial**:
    - Grafik ini mengilustrasikan persentase keluarga miskin yang menerima program bantuan sosial.
@@ -454,12 +454,12 @@
    - Tabel ini menyajikan statistik tentang ketersediaan layanan sosial bagi kelompok rentan di Kabupaten Badung.
    - Contoh:
 
-| Layanan Sosial           | Jumlah/Persentase                               |
-|--------------------------|--------------------------------------------------|
-| Pusat Pelayanan Anak     | 10 pusat                                         |
-| Pusat Pelayanan Lansia   | 5 pusat                                          |
-| Pusat Pelayanan Disabilitas | 5 pusat                                         |
-| Program Bantuan Sosial   | 500 keluarga miskin                              |
+| Layanan Sosial              | Jumlah/Persentase   |
+| --------------------------- | ------------------- |
+| Pusat Pelayanan Anak        | 10 pusat            |
+| Pusat Pelayanan Lansia      | 5 pusat             |
+| Pusat Pelayanan Disabilitas | 5 pusat             |
+| Program Bantuan Sosial      | 500 keluarga miskin |
 
 2. **Grafik Batang Jumlah Pusat Pelayanan Sosial**:
    - Grafik ini menampilkan jumlah pusat pelayanan sosial untuk anak, lansia, dan penyandang disabilitas di Kabupaten Badung.
