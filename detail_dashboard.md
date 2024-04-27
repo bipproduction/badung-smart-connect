@@ -3,7 +3,56 @@
 ## STATISTIK PENDUDUK:
 
 1. **Jumlah Penduduk Keseluruhan**: 
-   - Ini adalah data tentang jumlah total penduduk di Kabupaten Badung pada titik waktu tertentu, misalnya pada akhir tahun atau pada bulan tertentu.
+   ### Data Jumlah Total Penduduk Kabupaten Badung:
+
+- **Tanggal Pengumpulan Data**: 31 Desember 2023
+- **Total Penduduk**: 1.250.000 jiwa
+
+#### Tampilan Dashboard:
+
+1. **Grafik Garis Tren Pertumbuhan Penduduk**:
+   - Tampilan grafik garis yang menunjukkan tren pertumbuhan penduduk dari tahun ke tahun.
+   - Sumbu X: Tahun
+   - Sumbu Y: Jumlah Penduduk
+
+```
+       | 
+  1.3M |    *                
+       |       *           
+  1.2M |           *      
+       |               *  
+  1.1M |                 * 
+       |-------------------
+       |  2020  2021  2022
+```
+
+2. **Diagram Lingkaran Komposisi Usia Penduduk**:
+   - Menampilkan persentase penduduk dalam kelompok usia berbeda.
+   - Contoh: Anak-anak (0-14 tahun): 30%, Dewasa (15-64 tahun): 60%, Lansia (di atas 65 tahun): 10%
+
+```
+              Anak-anak
+                30%
+                 *
+               *   *
+             *       *
+           *           *
+       Dewasa --------- Lansia
+           *           *
+             *       *
+               *   *
+                 *
+```
+
+3. **Tabel Perbandingan Jumlah Penduduk**:
+   - Menunjukkan perbandingan jumlah penduduk pada tahun tertentu dengan tahun sebelumnya.
+   - Contoh: 
+   
+| Tahun  | Jumlah Penduduk | Perubahan (%) |
+|--------|------------------|---------------|
+| 2022   | 1.200.000        | -              |
+| 2023   | 1.250.000        | +4.17         |
+
    - Informasi ini penting karena menjadi dasar untuk mengevaluasi ukuran populasi yang harus dilayani oleh pemerintah daerah dalam menyediakan layanan publik seperti pendidikan, kesehatan, infrastruktur, dan lain-lain.
    - Data jumlah penduduk ini dapat disajikan dalam bentuk angka mutlak, seperti "jumlah penduduk saat ini adalah 1.000.000 jiwa".
    - Selain itu, data ini juga bisa dibandingkan dengan periode sebelumnya, misalnya tahun sebelumnya, untuk menunjukkan tren pertumbuhan atau penurunan populasi.
