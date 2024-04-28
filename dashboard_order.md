@@ -1467,217 +1467,683 @@ Berikut adalah contoh tampilan untuk Tindakan Pencegahan dan Respons dalam dashb
 
 ## PARTISIPASI MASYARAKAT
 
-1. **Survei Online**: Dashboard menyediakan fasilitas survei online yang memungkinkan warga Kabupaten Badung memberikan masukan dan pendapat mereka tentang isu-isu yang relevan dengan pelayanan publik, pembangunan ekonomi, lingkungan, dan masalah lainnya. Survei ini dirancang untuk mencakup pertanyaan terbuka atau tertutup, dapat diakses melalui perangkat seluler atau komputer. Data dari survei ini dianalisis untuk memahami kebutuhan dan preferensi masyarakat serta digunakan sebagai dasar untuk merumuskan kebijakan dan program pemerintah yang lebih responsif.
+1. **Analisis Afektif Masyarakat**: Melibatkan penggunaan teknik analisis sentimen untuk mengevaluasi perasaan dan opini masyarakat yang tercermin dalam umpan balik yang diterima. Ini membantu dalam memahami apakah umpan balik tersebut bersifat positif, negatif, atau netral.
 
-Untuk menyajikan fasilitas survei online dalam dashboard, Anda dapat menggunakan antarmuka yang ramah pengguna dan fungsionalitas yang mudah diakses. Berikut adalah beberapa elemen yang dapat disertakan:
 
-- **Formulir Survei**: Tampilkan formulir survei yang mencakup pertanyaan terbuka dan tertutup tentang isu-isu yang relevan. Pastikan formulir mudah dipahami dan diisi oleh responden.
+- **Word Cloud Sentimen**: Tampilkan word cloud yang menyoroti kata-kata kunci yang muncul dalam umpan balik masyarakat. Kata-kata ini dapat diberi warna berdasarkan sentimen (positif, negatif, atau netral) untuk memberikan gambaran keseluruhan tentang perasaan masyarakat.
 
-- **Tautan atau Tombol Akses Survei**: Sertakan tautan atau tombol yang jelas untuk mengakses survei online. Ini dapat ditempatkan secara prominennya di dashboard agar mudah ditemukan oleh pengguna.
+- **Grafik Sentimen**: Sajikan grafik yang menunjukkan distribusi sentimen dari umpan balik yang diterima. Ini dapat berupa grafik batang yang memperlihatkan jumlah umpan balik positif, negatif, dan netral dari waktu ke waktu.
 
-- **Notifikasi dan Pengingat**: Berikan fasilitas untuk mengirimkan notifikasi atau pengingat kepada pengguna tentang survei yang sedang berlangsung atau survei baru yang tersedia.
+- **Analisis Sentimen Detail**: Sertakan analisis sentimen yang lebih rinci untuk setiap topik atau isu tertentu. Misalnya, jika umpan balik terkait dengan layanan publik tertentu, Anda dapat menyajikan grafik atau tabel yang menunjukkan sentimen masyarakat terhadap layanan tersebut.
 
-- **Analisis Data**: Setelah survei selesai, tampilkan hasil analisis data secara langsung dalam dashboard, seperti diagram atau grafik yang menampilkan hasil survei secara visual.
+- **Perbandingan Sentimen**: Tampilkan perbandingan sentimen antara topik atau isu tertentu. Ini memungkinkan pengguna untuk melihat bagaimana perasaan masyarakat berbeda terhadap topik yang berbeda.
 
-- **Kemudahan Akses**: Pastikan survei dapat diakses melalui berbagai perangkat, termasuk ponsel pintar, tablet, dan komputer, sehingga memungkinkan partisipasi yang lebih luas dari masyarakat.
+Berikut adalah contoh tampilan untuk Analisis Afektif Masyarakat dalam dashboard:
 
-Berikut adalah contoh tampilan untuk fasilitas survei online dalam dashboard:
-
-**Formulir Survei:**
+**Word Cloud Sentimen:**
 ```
--------------------------------------------------------------
-|               Survei Online tentang Pelayanan Publik       |
--------------------------------------------------------------
-| Pertanyaan 1: Apa pendapat Anda tentang kualitas        |
-| pelayanan publik di Kabupaten Badung?                    |
-| (Tulis jawaban Anda di bawah ini)                        |
-| _________________________________________________________ |
-|                                                           |
-|                                                           |
-|                                                           |
-|___________________________________________________________|
-| Pertanyaan 2: Bagaimana tingkat kepuasan Anda terhadap   |
-| fasilitas umum yang tersedia di wilayah Anda?            |
-| (Pilih salah satu: Sangat Puas / Puas / Tidak Puas)      |
-|___________________________________________________________|
+               Word Cloud Sentimen Umpan Balik Masyarakat
+   ___________________________________________________________
+  |                                                           |
+  |                  [Word Cloud Sentimen]                    |
+  |                                                           |
+  |            [Kata-kata Positif]    [Kata-kata Negatif]     |
+  |                                                           |
+  |                                                           |
+  |___________________________________________________________|
 ```
 
-**Tautan atau Tombol Akses Survei:**
+**Grafik Sentimen:**
 ```
--------------------------------------------------------------
-|                                                           |
-|   Isi Survei Online Sekarang! [Tautan / Tombol]           |
-|                                                           |
--------------------------------------------------------------
-```
-
-**Notifikasi dan Pengingat:**
-```
--------------------------------------------------------------
-|                Survei Online Baru Tersedia!                |
-| Anda diundang untuk berpartisipasi dalam survei tentang   |
-| pembangunan ekonomi. Segera berikan masukan Anda!         |
-| [Akses Survei Sekarang]                                  |
--------------------------------------------------------------
+             Grafik Distribusi Sentimen Umpan Balik Masyarakat
+   ___________________________________________________________
+  |                                                           |
+  |                  Distribusi Sentimen                       |
+  |                                                           |
+  |          *                                              * |
+  |          *                 *                            * |
+  |    *     *                 *       *                    * |
+  |    *     *        *        *       *              *     * |
+  |    *     *        *        *       *         *    *     * |
+  |   Positif   Negatif   Netral                  Waktu     |
+  |___________________________________________________________|
 ```
 
-**Analisis Data:**
+**Analisis Sentimen Detail:**
 ```
--------------------------------------------------------------
-|               Hasil Survei Online                           |
-|___________________________________________________________|
-|                                                           |
-| Grafik: Tingkat Kepuasan terhadap Pelayanan Publik        |
-|                                                           |
-|                       * * * * * * * *                     |
-|                     *                   *                   |
-|                  *                         *               |
-|                *                             *             |
-|_____________*_________________________*___________________|
-```
-
-Dengan menyertakan fasilitas survei online dalam dashboard, Anda dapat mengumpulkan masukan yang berharga dari masyarakat dan menggunakannya untuk merancang kebijakan yang lebih efektif dan responsif.
-
-2. **Kotak Saran Online**: Selain survei, dashboard dilengkapi dengan fitur kotak saran online yang memungkinkan warga mengirimkan pertanyaan, masukan, atau keluhan secara langsung kepada pemerintah. Ini menjadi saluran komunikasi yang efektif antara pemerintah dan masyarakat, memungkinkan warga melaporkan masalah atau memberikan saran untuk perbaikan. Pemerintah dapat menanggapi kotak saran ini secara langsung atau menggunakan informasi yang diberikan untuk merancang program atau inisiatif yang lebih baik sesuai dengan kebutuhan masyarakat.
-
-Untuk mengintegrasikan fitur kotak saran online dalam dashboard, berikut adalah beberapa langkah yang dapat diambil:
-
-- **Formulir Kotak Saran**: Sertakan formulir sederhana yang memungkinkan warga untuk mengirimkan pertanyaan, masukan, atau keluhan mereka. Formulir ini harus mencakup bidang untuk nama, alamat email (opsional), subjek, dan pesan.
-
-- **Tombol Kirim**: Tampilkan tombol "Kirim" yang jelas di bawah formulir, sehingga pengguna dapat dengan mudah mengirimkan pesan mereka setelah mengisi formulir.
-
-- **Tampilan Pesan Masuk**: Setelah pengguna mengirimkan pesan, tampilkan pesan masuk secara langsung di dashboard atau berikan notifikasi kepada pihak yang bertanggung jawab untuk menangani kotak saran.
-
-- **Sistem Manajemen Pesan**: Buat sistem manajemen pesan yang memungkinkan pihak yang berwenang untuk melihat dan merespons pesan yang masuk dengan cepat dan efisien.
-
-- **Kebijakan Privasi**: Sertakan informasi tentang kebijakan privasi yang jelas untuk memberikan jaminan kepada pengguna bahwa informasi pribadi mereka akan dijaga kerahasiaannya.
-
-Berikut adalah contoh tampilan untuk fitur kotak saran online dalam dashboard:
-
-**Formulir Kotak Saran:**
-```
--------------------------------------------------------------
-|                        Kotak Saran                         |
--------------------------------------------------------------
-| Nama:            [Masukkan Nama Anda]                      |
-|___________________________________________________________|
-| Alamat Email:   [Masukkan Alamat Email Anda]               |
-| (opsional)                                                 |
-|___________________________________________________________|
-| Subjek:          [Subjek Pesan Anda]                       |
-|___________________________________________________________|
-| Pesan:                                                     |
-| [Tulis Pesan Anda di Sini]                                 |
-|                                                             |
-|                                                             |
-|___________________________________________________________|
-|                         [Kirim]                             |
--------------------------------------------------------------
+            Analisis Sentimen Terkait Layanan Publik
+   ___________________________________________________________
+  |                                                           |
+  |              Analisis Sentimen Terkait Layanan             |
+  |                                                           |
+  |       Topik 1: Layanan A                                 |
+  |       Positif: 60%   Negatif: 20%    Netral: 20%          |
+  |                                                           |
+  |       Topik 2: Layanan B                                 |
+  |       Positif: 40%   Negatif: 30%    Netral: 30%          |
+  |                                                           |
+  |___________________________________________________________|
 ```
 
-**Tampilan Pesan Masuk:**
+Dengan menyajikan Analisis Afektif Masyarakat dalam dashboard, pengguna dapat dengan cepat memahami perasaan dan opini masyarakat terhadap berbagai topik atau isu, yang dapat membantu dalam pengambilan keputusan dan perencanaan kebijakan yang lebih efektif.
+
+2. **Pemantauan Tren dan Pola Umpan Balik**: Fitur ini melibatkan pemantauan dan analisis terhadap tren dan pola umpan balik dari masyarakat dari waktu ke waktu. Hal ini memungkinkan untuk mengidentifikasi isu-isu atau tren yang muncul dan berkembang seiring berjalannya waktu.
+
+Untuk menyajikan Pemantauan Tren dan Pola Umpan Balik dalam dashboard, Anda dapat menggunakan visualisasi data temporal dan analisis tren. Berikut beberapa elemen yang dapat digunakan:
+
+- **Grafik Tren Sentimen**: Sajikan grafik garis atau area yang menunjukkan perubahan sentimen dari waktu ke waktu. Ini memungkinkan pengguna untuk melihat bagaimana perasaan masyarakat terhadap suatu topik berubah seiring berjalannya waktu.
+
+- **Heatmap Tren Sentimen**: Tampilkan heatmap yang menunjukkan tren sentimen dari berbagai topik atau isu dari waktu ke waktu. Warna yang berbeda dapat digunakan untuk menyoroti perubahan sentimen yang signifikan.
+
+- **Analisis Pola Umpan Balik**: Sertakan analisis pola umpan balik yang mencakup identifikasi isu-isu yang paling sering muncul dan tren umpan balik dari waktu ke waktu. Ini membantu dalam memahami perubahan preferensi atau kekhawatiran masyarakat.
+
+- **Grafik Frekuensi Umpan Balik**: Tampilkan grafik batang yang menunjukkan frekuensi umpan balik untuk setiap topik atau isu tertentu dari waktu ke waktu. Ini memungkinkan pengguna untuk melihat tren dalam jumlah umpan balik yang diterima.
+
+Berikut adalah contoh tampilan untuk Pemantauan Tren dan Pola Umpan Balik dalam dashboard:
+
+**Grafik Tren Sentimen:**
 ```
--------------------------------------------------------------
-|                       Pesan Masuk                          |
--------------------------------------------------------------
-| Pengirim:      John Doe                                   |
-| Subjek:        Permintaan Informasi                        |
-| Pesan:         Apakah ada informasi tentang program        |
-|                kesehatan masyarakat yang tersedia?         |
-|                                                             |
-|___________________________________________________________|
-| Pengirim:      Jane Smith                                  |
-| Subjek:        Keluhan tentang Kebersihan Lingkungan       |
-| Pesan:         Saya ingin melaporkan tempat pembuangan     |
-|                sampah ilegal di daerah saya.               |
-|___________________________________________________________|
-```
-
-Dengan menyediakan fitur kotak saran online, pemerintah dapat lebih terbuka terhadap masukan dan keluhan masyarakat, yang pada gilirannya dapat membantu meningkatkan kualitas layanan publik dan responsivitas pemerintah terhadap kebutuhan warga.
-
-3. **Forum Diskusi Online**: Dashboard juga menyediakan forum diskusi online tempat warga dapat berinteraksi satu sama lain dan dengan perwakilan pemerintah untuk membahas isu-isu lokal, berbagi informasi, dan mencari solusi bersama untuk masalah komunitas. Forum ini menjadi tempat untuk membangun komunitas yang kuat, mendorong partisipasi aktif, dan mempromosikan kolaborasi antara pemerintah dan masyarakat dalam memecahkan masalah lokal.
-
-Untuk menyediakan forum diskusi online dalam dashboard, berikut adalah langkah-langkah yang dapat diambil:
-
-- **Pembuatan Forum**: Buat forum online dengan kategori-kategori yang sesuai dengan isu-isu lokal dan kepentingan masyarakat. Misalnya, kategori-kategori bisa mencakup kesehatan, pendidikan, lingkungan, keamanan, dan lain-lain.
-
-- **Registrasi Pengguna**: Memungkinkan pengguna untuk mendaftar dan membuat akun untuk mengakses forum. Proses registrasi harus sederhana dan menyertakan verifikasi email untuk memastikan keamanan dan validitas pengguna.
-
-- **Penyusunan Aturan Forum**: Tetapkan aturan forum yang jelas dan tata tertib penggunaan. Aturan ini harus mencakup hal-hal seperti larangan spam, bahasa kasar, dan diskusi yang tidak relevan.
-
-- **Moderasi Konten**: Siapkan tim moderasi untuk memantau aktivitas forum dan memastikan bahwa konten yang diposting sesuai dengan aturan forum. Moderator juga dapat membantu memoderasi diskusi dan menjawab pertanyaan pengguna.
-
-- **Fasilitasi Diskusi**: Berikan fasilitas bagi pengguna untuk membuat posting baru, membalas posting lain, dan memberikan suara atau menandai posting yang bermanfaat. Ini akan mendorong interaksi dan partisipasi aktif dari anggota komunitas.
-
-- **Notifikasi dan Pemberitahuan**: Sediakan fitur notifikasi untuk memberitahu pengguna tentang balasan atau pembaruan terbaru dalam diskusi yang mereka ikuti. Ini akan memastikan bahwa pengguna tetap terhubung dengan forum dan tidak melewatkan informasi penting.
-
-Berikut adalah contoh tampilan untuk forum diskusi online dalam dashboard:
-
-**Tampilan Utama Forum:**
-```
--------------------------------------------------------------
-|                    Forum Diskusi Online                   |
--------------------------------------------------------------
-| Kategori Utama:                                           |
-| - Kesehatan                                               |
-| - Pendidikan                                              |
-| - Lingkungan                                              |
-| - Keamanan                                                |
-|___________________________________________________________|
-| [Buat Posting Baru]    [Cari Forum]   [Pemberitahuan]     |
-|___________________________________________________________|
-| Topik Populer:                                            |
-| - Diskusi tentang Kualitas Air di Daerah X               |
-| - Program Imunisasi Anak-anak                            |
-| - Rencana Penataan Taman Kota                            |
-|___________________________________________________________|
+                Grafik Tren Sentimen Umpan Balik Masyarakat
+   ___________________________________________________________
+  |                                                           |
+  |                  Tren Sentimen dari Waktu ke Waktu        |
+  |                                                           |
+  |         * * * * * * * * * * * * * * * * * * * *           |
+  |         * * * * * * * * * * * * * * * * * * * *           |
+  |         * * * * * * * * * * * * * * * * * * * *           |
+  |                                                           |
+  |             Waktu                      Sentimen            |
+  |___________________________________________________________|
 ```
 
-**Contoh Thread Diskusi:**
+**Heatmap Tren Sentimen:**
 ```
--------------------------------------------------------------
-|                         Diskusi:                           |
-|                 Kualitas Air di Daerah X                  |
-|___________________________________________________________|
-| Pengguna: JohnDoe                                         |
-| Tanggal: 28 April 2024                                    |
-|                                                           |
-| Apakah ada yang memiliki informasi terbaru tentang        |
-| kualitas air di daerah X? Saya mendengar beberapa         |
-| laporan tentang pencemaran air. Mungkin ada yang bisa    |
-| memberikan pembaruan?                                     |
-|___________________________________________________________|
-| Pengguna: JaneSmith                                       |
-| Tanggal: 29 April 2024                                    |
-|                                                           |
-| Saya juga tertarik untuk mengetahui lebih lanjut tentang  |
-| ini. Apakah ada tindakan yang telah diambil oleh         |
-| pemerintah setempat?                                      |
-|___________________________________________________________|
+               Heatmap Tren Sentimen Umpan Balik Masyarakat
+   ___________________________________________________________
+  |                                                           |
+  |             [Heatmap Sentimen dari Waktu ke Waktu]        |
+  |                                                           |
+  |          |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |          |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |          |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |                                                           |
+  |                Waktu                       Sentimen        |
+  |___________________________________________________________|
 ```
 
-Dengan menyediakan forum diskusi online, dashboard dapat menjadi pusat interaksi dan kolaborasi antara pemerintah dan masyarakat lokal, membantu membangun komunitas yang kuat dan responsif terhadap isu-isu lokal.
+**Analisis Pola Umpan Balik:**
+```
+            Analisis Pola Umpan Balik Masyarakat
+   ___________________________________________________________
+  |                                                           |
+  |             Pola Umpan Balik yang Muncul                    |
+  |                                                           |
+  |       Topik 1: Isu A                                      |
+  |       Pola: Meningkat dari waktu ke waktu                 |
+  |                                                           |
+  |       Topik 2: Isu B                                      |
+  |       Pola: Menurun dari waktu ke waktu                   |
+  |                                                           |
+  |___________________________________________________________|
+```
 
-4. **Transparansi Data**: Hasil survei, kotak saran, dan diskusi online tersedia secara transparan bagi masyarakat. Dashboard menyediakan akses publik ke data partisipasi masyarakat, sehingga warga dapat melihat bagaimana masukan mereka berkontribusi pada proses pengambilan keputusan pemerintah. Transparansi ini meningkatkan akuntabilitas pemerintah dan memperkuat kepercayaan masyarakat terhadap lembaga pemerintah.
+Dengan menyajikan Pemantauan Tren dan Pola Umpan Balik dalam dashboard, pengguna dapat dengan cepat mengidentifikasi tren dan pola umpan balik yang relevan dari masyarakat, yang dapat membantu dalam pengambilan keputusan dan perencanaan kebijakan yang lebih responsif.
 
-Transparansi data adalah aspek penting dari penerapan dashboard yang berorientasi pada partisipasi masyarakat. Berikut adalah langkah-langkah untuk memastikan transparansi data dalam dashboard:
+3. **Identifikasi Tema Sentral**: Mencakup penggunaan teknik analisis konten untuk mengidentifikasi dan mengekstrak tema-tema utama yang muncul dalam umpan balik masyarakat. Hal ini membantu dalam memahami isu-isu yang paling penting atau dominan bagi masyarakat.
 
-- **Akses Publik**: Pastikan bahwa semua data survei, kotak saran, dan diskusi online tersedia untuk diakses oleh masyarakat umum. Hal ini dapat dilakukan dengan menyediakan bagian khusus dalam dashboard yang berisi arsip atau catatan dari semua interaksi yang terjadi.
+Untuk menyajikan Identifikasi Tema Sentral dalam dashboard, Anda dapat menggunakan visualisasi berbasis teks dan analisis konten. Berikut beberapa elemen yang dapat digunakan:
 
-- **Presentasi Data yang Jelas**: Susun data secara terstruktur dan mudah dimengerti agar dapat diakses dan dipahami oleh masyarakat umum. Ini bisa dalam bentuk grafik, tabel, atau catatan teks, tergantung pada jenis data yang disajikan.
+- **Word Cloud Tema Sentral**: Tampilkan word cloud yang menyoroti kata-kata kunci yang muncul dalam umpan balik masyarakat. Kata-kata ini dapat diberi bobot berdasarkan frekuensi kemunculannya untuk menyoroti tema-tema utama yang dominan.
 
-- **Pemisahan Data Pribadi**: Pastikan bahwa data pribadi atau rahasia tidak dipublikasikan secara terbuka. Ini termasuk informasi pribadi pengguna yang mungkin teridentifikasi melalui survei atau kotak saran.
+- **Diagram Pohon Tema**: Sajikan diagram pohon yang menunjukkan hierarki tema-tema utama dan sub-tema yang muncul dalam umpan balik masyarakat. Ini membantu pengguna untuk memahami hubungan antara berbagai tema dan sub-tema.
 
-- **Penjelasan dan Konteks**: Sertakan penjelasan dan konteks yang memadai untuk setiap data yang disajikan. Hal ini akan membantu masyarakat memahami maksud dan implikasi dari data tersebut.
+- **Tabel Tema dan Frekuensi**: Sertakan tabel yang mencantumkan tema-tema utama beserta frekuensi kemunculannya dalam umpan balik masyarakat. Ini memungkinkan pengguna untuk melihat tema mana yang paling sering muncul dan mempengaruhi persepsi masyarakat.
 
-- **Keterbukaan tentang Penggunaan Data**: Jelaskan bagaimana data yang diterima dari survei, kotak saran, dan diskusi online akan digunakan oleh pemerintah. Ini akan membantu membangun kepercayaan masyarakat dan memperkuat persepsi bahwa masukan mereka benar-benar diperhatikan oleh pemerintah.
+- **Analisis Sentimen Berbasis Tema**: Tampilkan analisis sentimen yang diuraikan berdasarkan tema-tema utama. Ini memungkinkan pengguna untuk melihat bagaimana sentimen masyarakat bervariasi tergantung pada tema yang sedang dibahas.
 
-- **Umpan Balik dan Tanggapan**: Berikan mekanisme di dashboard untuk memberikan umpan balik atau tanggapan terhadap data yang disajikan. Ini memungkinkan masyarakat memberikan komentar atau saran tambahan tentang bagaimana data tersebut dapat digunakan atau diperbaiki.
+Berikut adalah contoh tampilan untuk Identifikasi Tema Sentral dalam dashboard:
 
-- **Keamanan Data**: Pastikan data yang dipublikasikan aman dan terlindungi dari akses yang tidak sah atau perubahan yang tidak diinginkan. Ini termasuk mengamankan server dan mengenkripsi data yang sensitif.
+**Word Cloud Tema Sentral:**
+```
+               Word Cloud Tema Sentral Umpan Balik Masyarakat
+   ___________________________________________________________
+  |                                                           |
+  |                [Word Cloud Tema Sentral]                  |
+  |                                                           |
+  |           [Tema Utama 1]   [Tema Utama 2]                 |
+  |                                                           |
+  |                                                           |
+  |___________________________________________________________|
+```
 
-Dengan memastikan transparansi data, dashboard dapat menjadi alat yang efektif untuk memperkuat partisipasi masyarakat dalam proses pengambilan keputusan pemerintah dan meningkatkan akuntabilitas lembaga pemerintah terhadap kebutuhan dan aspirasi masyarakat.
+**Diagram Pohon Tema:**
+```
+                    Diagram Pohon Tema Sentral
+   ___________________________________________________________
+  |                                                           |
+  |               [Diagram Pohon Tema Sentral]                |
+  |                                                           |
+  |               Tema Utama 1                                |
+  |                   /  \                                   |
+  |     Sub-tema 1a   Sub-tema 1b                            |
+  |                   /  \                                   |
+  |      Sub-sub-tema 1b1   Sub-sub-tema 1b2                 |
+  |                                                           |
+  |               Tema Utama 2                                |
+  |                   /  \                                   |
+  |     Sub-tema 2a   Sub-tema 2b                            |
+  |                   /  \                                   |
+  |      Sub-sub-tema 2b1   Sub-sub-tema 2b2                 |
+  |___________________________________________________________|
+```
 
+**Tabel Tema dan Frekuensi:**
+```
+           Tabel Tema Sentral dan Frekuensi Kemunculan
+   ___________________________________________________________
+  |                                                           |
+  |     Tema             |      Frekuensi Kemunculan           |
+  |___________________________________________________________|
+  |                       |                                   |
+  |   Tema Utama 1        |         X kali muncul               |
+  |                       |                                   |
+  |   Tema Utama 2        |         Y kali muncul               |
+  |                       |                                   |
+  |   Tema Utama 3        |         Z kali muncul               |
+  |                       |                                   |
+  |___________________________________________________________|
+```
 
+**Analisis Sentimen Berbasis Tema:**
+```
+      Analisis Sentimen Berbasis Tema untuk Tema Utama 1
+   ___________________________________________________________
+  |                                                           |
+  |     Tema Utama 1: [Deskripsi Tema Utama 1]                |
+  |                                                           |
+  |    Sentimen Positif: 60%                                  |
+  |    Sentimen Negatif: 20%                                  |
+  |    Sentimen Netral: 20%                                   |
+  |                                                           |
+  |___________________________________________________________|
+```
 
+Dengan menyajikan Identifikasi Tema Sentral dalam dashboard, pengguna dapat dengan cepat memahami tema-tema utama yang dominan dalam umpan balik masyarakat, yang dapat membantu dalam pemahaman isu-isu yang paling penting atau dominan bagi masyarakat.
 
+4. **Visualisasi Sentimen Geografis**: Fitur ini memungkinkan visualisasi spasial dari sentimen masyarakat menggunakan alat pemetaan geografis. Ini membantu dalam memahami distribusi spasial dari opini positif dan negatif di berbagai wilayah geografis.
+
+Untuk menyajikan Visualisasi Sentimen Geografis dalam dashboard, Anda dapat menggunakan peta interaktif yang menunjukkan distribusi spasial dari sentimen masyarakat di Kabupaten Badung. Berikut adalah contoh tampilan dan fitur yang dapat disertakan:
+
+- **Peta Interaktif**: Tampilkan peta interaktif Kabupaten Badung yang memungkinkan pengguna untuk menjelajahi wilayah dengan mudah. Pengguna dapat memperbesar, memperkecil, dan memilih area spesifik untuk melihat detail sentimen masyarakat.
+
+- **Penanda Berwarna**: Gunakan penanda berwarna pada peta untuk menunjukkan sentimen umum di setiap wilayah. Misalnya, warna hijau untuk sentimen positif, merah untuk sentimen negatif, dan biru untuk sentimen netral.
+
+- **Info Popup**: Ketika pengguna mengarahkan kursor ke wilayah tertentu pada peta, tampilkan info popup yang berisi detail tentang sentimen masyarakat di wilayah tersebut. Ini dapat mencakup persentase sentimen positif, negatif, dan netral, serta komentar atau feedback spesifik yang diterima dari wilayah tersebut.
+
+- **Analisis Perbandingan**: Sertakan fitur yang memungkinkan pengguna untuk membandingkan sentimen antar wilayah. Misalnya, pengguna dapat membandingkan tingkat sentimen antara kota dan pedesaan, atau antara wilayah geografis yang berbeda.
+
+- **Waktu dan Tren**: Jika data sentimen tersedia untuk beberapa periode waktu, sertakan fitur untuk mengamati tren sentimen dari waktu ke waktu. Ini dapat ditampilkan dalam bentuk grafik garis atau grafik area di sebelah peta.
+
+Berikut adalah contoh tampilan untuk Visualisasi Sentimen Geografis dalam dashboard:
+
+**Peta Interaktif dengan Penanda Berwarna:**
+```
+    [Peta Interaktif Kabupaten Badung]
+     ________________________________
+    |                                |
+    |                                |
+    |     [Sentimen Positif]        |
+    |       [Sentimen Negatif]      |
+    |                                |
+    |                                |
+    |________________________________|
+```
+
+**Info Popup:**
+```
+    [Info Popup untuk Wilayah Tertentu]
+     ________________________________
+    |                                |
+    |   Wilayah: [Nama Wilayah]     |
+    |   Sentimen Positif: 60%       |
+    |   Sentimen Negatif: 20%       |
+    |   Sentimen Netral: 20%        |
+    |   Komentar: [Komentar Pengguna]|
+    |________________________________|
+```
+
+**Analisis Perbandingan:**
+```
+    [Perbandingan Sentimen Antara Kota dan Pedesaan]
+     ________________________________
+    |                                |
+    |  [Pilih Wilayah Kota]         |
+    |  [Pilih Wilayah Pedesaan]     |
+    |                                |
+    |________________________________|
+```
+
+**Grafik Tren Sentimen:**
+```
+    [Grafik Tren Sentimen dari Waktu ke Waktu]
+     ________________________________
+    |                                |
+    |    [Grafik Tren Sentimen]      |
+    |                                |
+    |________________________________|
+```
+
+Dengan menggunakan Visualisasi Sentimen Geografis, pengguna dapat dengan mudah memahami distribusi spasial dari opini positif dan negatif di berbagai wilayah Kabupaten Badung, yang dapat membantu pemerintah dalam merumuskan kebijakan yang responsif terhadap sentimen masyarakat di setiap wilayah.
+
+5. **Segmentasi Demografis**: Melibatkan segmentasi dan analisis umpan balik berdasarkan karakteristik demografis kunci seperti usia, jenis kelamin, pendapatan, dan tingkat pendidikan. Ini membantu dalam memahami perbedaan dalam persepsi dan kebutuhan di antara kelompok-kelompok masyarakat yang berbeda.
+
+Untuk mengimplementasikan Segmentasi Demografis dalam dashboard, Anda dapat menyertakan fitur-fitur berikut:
+
+- **Filter Demografis**: Sediakan filter yang memungkinkan pengguna untuk memilih karakteristik demografis kunci seperti usia, jenis kelamin, pendapatan, dan tingkat pendidikan. Ini akan memungkinkan pengguna untuk menyesuaikan tampilan dashboard sesuai dengan kelompok demografis yang mereka minati.
+
+- **Grafik dan Diagram**: Tampilkan grafik dan diagram yang memperlihatkan analisis umpan balik berdasarkan karakteristik demografis. Misalnya, grafik batang untuk menunjukkan perbandingan sentimen antara kelompok usia, atau diagram lingkaran untuk menampilkan distribusi sentimen berdasarkan jenis kelamin.
+
+- **Analisis Perbandingan**: Sertakan fitur yang memungkinkan pengguna untuk membandingkan sentimen antar kelompok demografis. Hal ini akan membantu dalam memahami perbedaan persepsi dan kebutuhan di antara kelompok-kelompok tersebut.
+
+- **Infografis**: Buat infografis yang menarik dan informatif untuk menyajikan temuan dari analisis segmentasi demografis dengan cara yang mudah dipahami. Infografis dapat menyajikan temuan utama dan insight dari analisis dengan gaya visual yang menarik.
+
+- **Deskripsi Demografis**: Sertakan deskripsi atau ringkasan karakteristik demografis kunci yang dipilih pengguna saat mereka menggunakan filter. Ini dapat membantu pengguna memahami konteks dari analisis yang mereka lihat.
+
+Berikut adalah contoh tampilan untuk Segmentasi Demografis dalam dashboard:
+
+**Filter Demografis:**
+```
+    [Filter Demografis]
+     ________________________________
+    |  Usia:       [Pilih Rentang]   |
+    |  Jenis Kelamin: [Pilih Jenis] |
+    |  Pendapatan: [Pilih Rentang]  |
+    |  Pendidikan: [Pilih Tingkat]  |
+    |________________________________|
+```
+
+**Grafik dan Diagram:**
+```
+    [Grafik Perbandingan Sentimen Berdasarkan Usia]
+     ________________________________
+    |                                |
+    |    [Grafik Batang]            |
+    |                                |
+    |________________________________|
+
+    [Diagram Lingkaran Distribusi Sentimen Berdasarkan Jenis Kelamin]
+     ________________________________
+    |                                |
+    |    [Diagram Lingkaran]        |
+    |                                |
+    |________________________________|
+```
+
+**Analisis Perbandingan:**
+```
+    [Perbandingan Sentimen Antara Kelompok Usia]
+     ________________________________
+    |                                |
+    |  [Pilih Rentang Usia 1]       |
+    |  [Pilih Rentang Usia 2]       |
+    |                                |
+    |________________________________|
+```
+
+**Infografis:**
+```
+    [Infografis Analisis Segmentasi Demografis]
+     ________________________________
+    |                                |
+    |        [Infografis]            |
+    |                                |
+    |________________________________|
+```
+
+Dengan Segmentasi Demografis, pengguna dapat memahami perbedaan dalam persepsi dan kebutuhan di antara kelompok-kelompok demografis yang berbeda, yang dapat menjadi dasar untuk pengambilan keputusan yang lebih terarah dan responsif.
+
+6. **Model Prediktif Perilaku**: Fitur ini menggunakan teknik analisis prediktif untuk memodelkan dan memprediksi perilaku masa depan masyarakat berdasarkan pola historis dan faktor kontekstual. Ini membantu dalam merencanakan tindakan atau kebijakan yang lebih proaktif dan responsif.
+
+Untuk mengimplementasikan Model Prediktif Perilaku dalam dashboard, Anda dapat menyertakan fitur-fitur berikut:
+
+- **Pemodelan Prediktif**: Gunakan teknik analisis prediktif seperti regresi, klasifikasi, atau time series forecasting untuk memodelkan perilaku masa depan masyarakat berdasarkan data historis dan faktor kontekstual. Misalnya, Anda dapat memprediksi tingkat partisipasi dalam program kesehatan berdasarkan pola historis dan faktor-faktor seperti kampanye promosi atau kondisi ekonomi.
+
+- **Visualisasi Prediksi**: Tampilkan hasil prediksi secara visual dalam bentuk grafik atau diagram yang mudah dimengerti. Ini memungkinkan pengguna untuk melihat tren dan pola perilaku yang diprediksi secara intuitif.
+
+- **Pemantauan Real-Time**: Integrasikan model prediktif dengan data real-time untuk memperbarui prediksi secara terus-menerus berdasarkan informasi terbaru. Hal ini memungkinkan pengguna untuk mendapatkan pemahaman yang lebih akurat tentang perilaku masyarakat saat ini dan masa depan.
+
+- **Analisis Keterkaitan**: Analisis hubungan antara faktor-faktor yang mempengaruhi perilaku masyarakat dan hasil prediksi. Ini membantu dalam memahami faktor-faktor yang paling berpengaruh terhadap perilaku dan merumuskan strategi yang tepat untuk mengelola atau mengubah perilaku tersebut.
+
+- **Kesimpulan dan Rekomendasi**: Sertakan ringkasan temuan dari model prediktif serta rekomendasi untuk tindakan atau kebijakan yang dapat diambil berdasarkan hasil prediksi. Ini membantu pengguna dalam mengambil keputusan yang didukung oleh analisis data.
+
+Berikut adalah contoh tampilan untuk Model Prediktif Perilaku dalam dashboard:
+
+**Pemodelan Prediktif:**
+```
+    [Model Prediksi Partisipasi Program Kesehatan]
+     ________________________________
+    |                                |
+    |    [Hasil Prediksi]            |
+    |                                |
+    |________________________________|
+```
+
+**Visualisasi Prediksi:**
+```
+    [Grafik Time Series Prediksi Tingkat Partisipasi]
+     ________________________________
+    |                                |
+    |        [Grafik Garis]          |
+    |                                |
+    |________________________________|
+```
+
+**Pemantauan Real-Time:**
+```
+    [Pembaruan Real-Time Prediksi Perilaku]
+     ________________________________
+    |                                |
+    |    [Pemantauan Real-Time]      |
+    |                                |
+    |________________________________|
+```
+
+**Analisis Keterkaitan:**
+```
+    [Analisis Faktor-Faktor Pengaruh Terhadap Perilaku]
+     ________________________________
+    |                                |
+    |    [Grafik Korelasi]           |
+    |                                |
+    |________________________________|
+```
+
+**Kesimpulan dan Rekomendasi:**
+```
+    [Ringkasan Temuan dan Rekomendasi]
+     ________________________________
+    |                                |
+    |     [Ringkasan Temuan]         |
+    |     [Rekomendasi]              |
+    |________________________________|
+```
+
+Dengan Model Prediktif Perilaku, pengguna dapat memperoleh wawasan yang lebih dalam tentang perilaku masa depan masyarakat dan mengambil langkah-langkah yang sesuai untuk meresponsnya secara efektif.
+
+7. **Prioritisasi Respons**: Melibatkan pengembangan model klasifikasi untuk menentukan prioritas tindakan atau respons terhadap umpan balik masyarakat, dengan mempertimbangkan faktor-faktor seperti urgensi, dampak, dan kompleksitas. Ini membantu dalam memprioritaskan pengalokasian sumber daya secara efisien.
+
+Untuk melaksanakan fitur Prioritisasi Respons dalam dashboard, Anda dapat mengikutsertakan langkah-langkah berikut:
+
+- **Pengembangan Model Klasifikasi**: Implementasikan model klasifikasi machine learning untuk menilai umpan balik masyarakat dan menentukan prioritas respons. Model ini harus dilatih menggunakan data historis dan dapat memperhitungkan berbagai faktor seperti urgensi, dampak, dan kompleksitas.
+
+- **Integrasi dengan Data Umpan Balik**: Koneksikan model klasifikasi dengan data umpan balik masyarakat yang diperoleh dari berbagai sumber seperti survei, media sosial, atau formulir online. Model ini harus mampu menganalisis dan mengevaluasi umpan balik secara real-time.
+
+- **Penentuan Prioritas**: Model klasifikasi harus menghasilkan skor atau label yang menunjukkan tingkat prioritas untuk setiap umpan balik yang dianalisis. Skor ini kemudian dapat digunakan untuk menentukan tindakan respons yang sesuai.
+
+- **Visualisasi Prioritas**: Tampilkan hasil prioritas respons dalam dashboard menggunakan grafik atau tabel yang mudah dimengerti. Ini memungkinkan pengguna untuk melihat dan memahami prioritas respons dengan cepat.
+
+- **Pelacakan dan Evaluasi**: Terapkan mekanisme pelacakan dan evaluasi untuk memantau efektivitas respons yang diambil berdasarkan prioritas yang ditetapkan. Ini memungkinkan pengguna untuk mengevaluasi apakah tindakan respons berhasil atau perlu disesuaikan.
+
+Berikut adalah contoh tampilan untuk fitur Prioritisasi Respons dalam dashboard:
+
+**Model Klasifikasi:**
+```
+    [Model Klasifikasi Prioritas Respons]
+     ________________________________
+    |                                |
+    |    [Hasil Klasifikasi]         |
+    |                                |
+    |________________________________|
+```
+
+**Visualisasi Prioritas:**
+```
+    [Tabel Prioritas Respons]
+     ________________________________
+    |   Umpan Balik   |   Prioritas  |
+    |________________|______________|
+    |     Umpan 1     |     Tinggi   |
+    |     Umpan 2     |    Sedang    |
+    |     Umpan 3     |    Rendah    |
+    |________________|______________|
+```
+
+**Pelacakan dan Evaluasi:**
+```
+    [Evaluasi Efektivitas Respons]
+     ________________________________
+    |                                |
+    |    [Grafik Tren Efektivitas]  |
+    |                                |
+    |________________________________|
+```
+
+Dengan Prioritisasi Respons, pemerintah dapat lebih efisien dalam menanggapi umpan balik masyarakat dengan mengalokasikan sumber daya pada isu-isu yang paling penting dan mendesak.
+
+8. **Analisis Kompetitif dan Perbandingan**: Fitur ini mencakup analisis perbandingan terhadap aktivitas dan umpan balik yang berkaitan dengan pesaing atau entitas sejenis lainnya. Ini membantu dalam memahami kekuatan dan kelemahan relatif, serta identifikasi peluang atau ancaman yang mungkin timbul.
+
+Untuk melaksanakan fitur Analisis Kompetitif dan Perbandingan dalam dashboard, Anda dapat mengikuti langkah-langkah berikut:
+
+- **Identifikasi dan Kumpulkan Data**: Kumpulkan data terkait aktivitas dan umpan balik dari pesaing atau entitas sejenis lainnya. Ini bisa berupa data publik, laporan industri, atau data yang diperoleh melalui survei dan penelitian pasar.
+
+- **Pemrosesan Data**: Lakukan pemrosesan data untuk mempersiapkan data yang akan digunakan dalam analisis. Ini mungkin melibatkan pembersihan data, penggabungan data dari berbagai sumber, dan pengubahan format data jika diperlukan.
+
+- **Analisis Perbandingan**: Terapkan metode analisis yang sesuai untuk membandingkan aktivitas dan umpan balik antara entitas yang ditinjau dan pesaing atau entitas sejenis lainnya. Ini bisa meliputi analisis perbandingan grafis, analisis statistik, atau teknik analisis lainnya.
+
+- **Visualisasi Data**: Tampilkan hasil analisis perbandingan dalam dashboard menggunakan grafik, tabel, atau visualisasi data lainnya. Ini memungkinkan pengguna untuk dengan mudah memahami perbandingan antara entitas yang ditinjau dan pesaing.
+
+- **Pengembangan Wawasan**: Berikan wawasan dan temuan kunci dari analisis perbandingan kepada pengguna dashboard. Ini dapat membantu pengguna untuk memahami kekuatan, kelemahan, peluang, dan ancaman yang ada, serta memberikan dasar untuk pengambilan keputusan yang lebih baik.
+
+Berikut adalah contoh tampilan untuk fitur Analisis Kompetitif dan Perbandingan dalam dashboard:
+
+**Grafik Perbandingan Aktivitas:**
+```
+    [Grafik Perbandingan Aktivitas]
+     ________________________________
+    |                                |
+    |    [Grafik Perbandingan]       |
+    |                                |
+    |________________________________|
+```
+
+**Tabel Umpan Balik:**
+```
+    [Tabel Perbandingan Umpan Balik]
+     ________________________________
+    |   Kriteria   |   Entitas A  |   Entitas B  |
+    |_____________|______________|______________|
+    |   Kriteria 1 |     Nilai    |     Nilai    |
+    |   Kriteria 2 |     Nilai    |     Nilai    |
+    |   Kriteria 3 |     Nilai    |     Nilai    |
+    |_____________|______________|______________|
+```
+
+**Ringkasan Temuan Kunci:**
+```
+    [Ringkasan Temuan Kunci]
+     ________________________________
+    |                                |
+    |    [Temuan Utama]              |
+    |                                |
+    |________________________________|
+```
+
+Dengan Analisis Kompetitif dan Perbandingan, pengguna dashboard dapat memahami posisi relatif entitas yang ditinjau terhadap pesaing atau entitas sejenis lainnya, serta mengidentifikasi strategi yang tepat untuk meningkatkan daya saing.
+
+9. **Manajemen Pengaduan Masyarakat**: Fitur ini mencakup pengembangan sistem untuk mengelola, memproses, dan melacak pengaduan yang masuk dari masyarakat. Ini memungkinkan untuk menangani pengaduan dengan lebih terstruktur dan efisien.
+
+Untuk mengimplementasikan fitur Manajemen Pengaduan Masyarakat dalam dashboard, Anda dapat mengikuti langkah-langkah berikut:
+
+- **Desain Sistem Manajemen Pengaduan**: Rancang sistem yang dapat mengelola pengaduan yang masuk dari masyarakat. Sistem ini harus mencakup formulir pengaduan, alur kerja untuk pemrosesan pengaduan, dan database untuk menyimpan informasi pengaduan.
+
+- **Integrasi dengan Dashboard**: Integrasikan sistem manajemen pengaduan dengan dashboard Anda sehingga pengguna dapat mengakses informasi tentang status pengaduan dan tindak lanjut yang telah diambil.
+
+- **Penerimaan Pengaduan**: Buat formulir pengaduan yang mudah diakses oleh masyarakat. Formulir ini harus mencakup detail tentang pengaduan, seperti jenis pengaduan, lokasi kejadian, dan deskripsi masalah.
+
+- **Pemrosesan Pengaduan**: Tetapkan alur kerja untuk pemrosesan pengaduan yang masuk. Ini bisa melibatkan tahapan seperti verifikasi pengaduan, penugasan kepada petugas yang tepat, investigasi, dan penyelesaian.
+
+- **Pelacakan dan Pelaporan**: Bangun fitur pelacakan pengaduan sehingga masyarakat dapat melihat status pengaduan mereka. Selain itu, buatlah fitur pelaporan untuk memungkinkan pengguna dashboard melihat statistik tentang jumlah pengaduan, jenis pengaduan yang paling umum, dan waktu penyelesaian rata-rata.
+
+- **Responsif Terhadap Pengaduan**: Pastikan sistem responsif terhadap pengaduan yang masuk dengan memberikan konfirmasi penerimaan pengaduan, pembaruan status secara berkala, dan informasi tentang tindak lanjut yang diambil.
+
+- **Analisis dan Evaluasi**: Lakukan analisis terhadap pengaduan yang masuk untuk mengidentifikasi pola, tren, dan masalah umum yang perlu ditangani. Gunakan informasi ini untuk meningkatkan proses manajemen pengaduan di masa mendatang.
+
+Berikut adalah contoh tampilan untuk fitur Manajemen Pengaduan Masyarakat dalam dashboard:
+
+**Formulir Pengaduan:**
+```
+    [Formulir Pengaduan]
+     ________________________________
+    |                                |
+    |    [Formulir Pengaduan]        |
+    |                                |
+    |________________________________|
+```
+
+**Status Pengaduan:**
+```
+    [Status Pengaduan]
+     ________________________________
+    |   ID Pengaduan  |   Status     |
+    |________________|______________|
+    |      001       |   Diproses   |
+    |      002       |   Ditutup    |
+    |      003       |   Dalam Antrian|
+    |________________|______________|
+```
+
+**Statistik Pengaduan:**
+```
+    [Statistik Pengaduan]
+     ________________________________
+    |   Total Pengaduan  |   Rata-Rata Waktu Penyelesaian  |
+    |___________________|_______________________________|
+    |         100        |             2 hari             |
+    |___________________|_______________________________|
+```
+
+Dengan fitur Manajemen Pengaduan Masyarakat, pemerintah dapat meningkatkan responsivitas terhadap masalah yang dilaporkan oleh masyarakat dan memperbaiki layanan publik secara keseluruhan.
+
+10. **Pemantauan dan Analisis Pengaduan Online**: Melibatkan pemantauan dan analisis terhadap pengaduan yang masuk dari berbagai platform online seperti situs web pemerintah, media sosial, atau forum diskusi. Ini membantu dalam mendapatkan gambaran yang lebih lengkap tentang masalah-masalah yang dihadapi oleh masyarakat.
+
+Untuk mengimplementasikan fitur Pemantauan dan Analisis Pengaduan Online dalam dashboard, Anda dapat mengikuti langkah-langkah berikut:
+
+- **Pemantauan Sumber Data**: Identifikasi sumber-sumber online yang relevan untuk pemantauan pengaduan, termasuk situs web pemerintah, platform media sosial seperti Twitter, Facebook, dan forum diskusi yang populer. Pastikan untuk memilih sumber yang paling relevan dengan target audiens Anda.
+
+- **Pengumpulan Data**: Gunakan alat atau layanan pemantauan media sosial dan analisis sentimen untuk mengumpulkan data pengaduan secara otomatis dari sumber-sumber online yang telah ditentukan. Anda juga dapat memanfaatkan API publik atau alat pemantauan media sosial untuk mengumpulkan data secara berkala.
+
+- **Pemrosesan Data**: Lakukan pemrosesan data untuk membersihkan dan merapikan data yang telah dikumpulkan. Ini meliputi identifikasi dan penghapusan duplikat, pembersihan teks, dan pengelompokan data berdasarkan kategori atau topik yang relevan.
+
+- **Analisis Sentimen**: Terapkan teknik analisis sentimen untuk mengevaluasi sentimen umum dari pengaduan yang diterima. Ini membantu dalam memahami apakah pengaduan tersebut bersifat positif, negatif, atau netral, serta tren sentimen dari waktu ke waktu.
+
+- **Visualisasi Data**: Tampilkan hasil analisis dalam bentuk visual yang mudah dimengerti, seperti grafik, peta panas, atau diagram lingkaran. Visualisasi ini membantu pengguna dashboard untuk dengan cepat memahami pola dan tren dalam pengaduan online.
+
+- **Pengembangan Wawasan**: Berikan wawasan dan temuan kunci dari analisis pengaduan online kepada pengguna dashboard. Ini bisa berupa temuan umum tentang masalah yang paling sering dilaporkan, tren waktu dalam pengaduan, atau daerah geografis yang paling terpengaruh.
+
+Berikut adalah contoh tampilan untuk fitur Pemantauan dan Analisis Pengaduan Online dalam dashboard:
+
+**Grafik Tren Pengaduan Online:**
+```
+    [Grafik Tren Pengaduan Online]
+     ________________________________
+    |                                |
+    |    [Grafik Tren Sentimen]      |
+    |                                |
+    |________________________________|
+```
+
+**Peta Panas Pengaduan Berdasarkan Lokasi:**
+```
+    [Peta Panas Pengaduan Berdasarkan Lokasi]
+     ________________________________
+    |                                |
+    |    [Peta Panas Sentimen]       |
+    |                                |
+    |________________________________|
+```
+
+**Tabel Topik Pengaduan Teratas:**
+```
+    [Tabel Topik Pengaduan Teratas]
+     ________________________________
+    |   Topik Pengaduan  |  Jumlah  |
+    |____________________|__________|
+    |   Topik 1          |   100    |
+    |   Topik 2          |    85    |
+    |   Topik 3          |    72    |
+    |____________________|__________|
+```
+
+Dengan fitur Pemantauan dan Analisis Pengaduan Online, pemerintah dapat dengan cepat merespons masalah yang dihadapi oleh masyarakat, meningkatkan layanan publik, dan membangun kepercayaan dengan melibatkan secara proaktif dengan keluhan dan masukan masyarakat.
+
+11. **Sistem Manajemen Pengaduan Terpusat**: Fitur ini mencakup pengembangan sistem terpusat untuk memfasilitasi pengelolaan dan pelacakan pengaduan dari berbagai saluran. Ini memungkinkan untuk menyediakan layanan yang lebih terkoordinasi dan responsif kepada masyarakat.
+
+Untuk mengimplementasikan fitur Sistem Manajemen Pengaduan Terpusat dalam dashboard, Anda dapat mengikuti langkah-langkah berikut:
+
+- **Pengembangan Sistem Manajemen Pengaduan**: Bangun sistem terpusat yang memungkinkan penerimaan, pemantauan, dan penanganan pengaduan dari berbagai saluran, termasuk telepon, email, formulir online, dan media sosial. Pastikan sistem dapat mengintegrasikan data dari berbagai sumber secara efisien.
+
+- **Penerimaan Pengaduan**: Fasilitasi berbagai saluran untuk masyarakat mengajukan pengaduan, seperti formulir online yang mudah diakses, nomor telepon layanan pelanggan, dan alamat email resmi. Pastikan setiap pengaduan masuk secara otomatis tercatat dalam sistem.
+
+- **Pelacakan dan Pemantauan**: Buat fitur yang memungkinkan petugas pemerintah untuk melacak dan memantau status pengaduan secara real-time. Setiap pengaduan harus diberikan nomor tiket unik untuk referensi dan pelacakan.
+
+- **Penanganan dan Penugasan**: Implementasikan proses penanganan dan penugasan pengaduan kepada petugas yang tepat berdasarkan jenis dan tingkat keseriusan masalah. Pastikan ada tata kelola yang jelas dan efisien dalam menangani pengaduan.
+
+- **Pemberian Respons**: Sediakan alat yang memungkinkan petugas memberikan respons kepada pengaduan secara tepat waktu dan efektif. Hal ini dapat berupa email, SMS, atau panggilan telepon untuk memberikan informasi tentang status pengaduan dan langkah-langkah yang diambil.
+
+- **Analisis dan Pelaporan**: Lakukan analisis reguler terhadap data pengaduan yang masuk untuk mengidentifikasi tren, pola, dan isu-isu yang muncul. Buat laporan yang dapat dipersonalisasi untuk menampilkan informasi yang relevan kepada manajemen atau pihak terkait.
+
+- **Integrasi dengan Dashboard**: Integrasikan sistem manajemen pengaduan terpusat dengan dashboard untuk menyajikan informasi terkait pengaduan secara visual. Ini dapat mencakup grafik tren pengaduan, statistik pengaduan berdasarkan kategori, dan status pengaduan yang sedang diproses.
+
+Berikut adalah contoh tampilan untuk fitur Sistem Manajemen Pengaduan Terpusat dalam dashboard:
+
+**Dashboard Manajemen Pengaduan:**
+```
+    [Dashboard Manajemen Pengaduan]
+     ________________________________
+    |                                |
+    |   [Grafik Tren Pengaduan]      |
+    |                                |
+    |   [Tabel Pengaduan Terbaru]    |
+    |                                |
+    |   [Statistik Pengaduan]        |
+    |                                |
+    |________________________________|
+```
+
+Dengan fitur Sistem Manajemen Pengaduan Terpusat, pemerintah dapat meningkatkan efisiensi dalam menangani pengaduan masyarakat, memberikan layanan yang lebih responsif, dan membangun kepercayaan dengan memberikan pemantauan dan transparansi yang lebih baik dalam proses penanganan pengaduan.
+
+12. **Analisis Tematik Pengaduan Masyarakat**: Fitur ini melibatkan analisis tematik terhadap pengaduan yang diterima untuk mengidentifikasi tren atau pola dalam jenis masalah yang dilaporkan oleh masyarakat. Ini membantu dalam mengidentifikasi isu-isu yang paling penting atau mendesak yang memerlukan perhatian lebih lanjut.
+
+Untuk mengimplementasikan fitur Analisis Tematik Pengaduan Masyarakat dalam dashboard, Anda dapat mengikuti langkah-langkah berikut:
+
+- **Pengumpulan Data Pengaduan**: Pastikan sistem manajemen pengaduan terpusat telah dikonfigurasi untuk mengumpulkan data pengaduan dari berbagai saluran, seperti formulir online, telepon, email, dan media sosial.
+
+- **Prapemrosesan Data**: Lakukan prapemrosesan data pengaduan untuk membersihkan dan mempersiapkannya untuk analisis. Ini mungkin melibatkan langkah-langkah seperti normalisasi teks, penghapusan stop words, dan pemisahan kata-kata.
+
+- **Analisis Tematik**: Terapkan teknik analisis tematik, seperti pemodelan topic menggunakan algoritma seperti Latent Dirichlet Allocation (LDA) atau Non-Negative Matrix Factorization (NMF), untuk mengidentifikasi pola dan tema dalam data pengaduan. Setiap tema harus mewakili jenis masalah atau isu yang dilaporkan oleh masyarakat.
+
+- **Klasifikasi Pengaduan**: Kelompokkan pengaduan berdasarkan tema atau kategori yang telah diidentifikasi dalam analisis tematik. Ini memungkinkan untuk memahami distribusi relatif masalah yang dilaporkan dan memprioritaskan tindakan.
+
+- **Visualisasi Tema**: Gunakan grafik atau diagram untuk visualisasi tema atau kategori pengaduan yang paling umum. Ini dapat berupa diagram lingkaran, diagram batang, atau peta panas untuk menunjukkan distribusi relatif dari berbagai masalah.
+
+- **Analisis Tren dan Pola**: Lakukan analisis tren dan pola berdasarkan tema pengaduan dari waktu ke waktu. Ini membantu dalam memahami perubahan dalam prioritas atau urgensi masalah yang dilaporkan oleh masyarakat.
+
+- **Pelaporan dan Interpretasi**: Buat laporan yang merangkum hasil analisis tematik, termasuk temuan utama, tren yang diamati, dan rekomendasi untuk tindakan selanjutnya. Berikan interpretasi yang relevan untuk membantu pengambilan keputusan.
+
+Berikut adalah contoh tampilan untuk fitur Analisis Tematik Pengaduan Masyarakat dalam dashboard:
+
+**Dashboard Analisis Tematik Pengaduan Masyarakat:**
+```
+    [Dashboard Analisis Tematik Pengaduan Masyarakat]
+     ________________________________________________
+    |                                                |
+    |   [Grafik Tema Pengaduan Terpopuler]           |
+    |                                                |
+    |   [Diagram Batang Distribusi Tema Pengaduan]   |
+    |                                                |
+    |   [Tabel Tema Pengaduan dan Jumlah]            |
+    |                                                |
+    |________________________________________________|
+```
+
+Dengan fitur Analisis Tematik Pengaduan Masyarakat, pemerintah dapat lebih memahami isu-isu yang dihadapi oleh masyarakat dan mengambil tindakan yang sesuai untuk meningkatkan kualitas layanan dan respons terhadap kebutuhan mereka.
