@@ -4,17 +4,17 @@
 
 1. **Jumlah Penduduk Keseluruhan**: Informasi ini mencakup jumlah total penduduk Kabupaten Badung pada titik waktu tertentu. Data ini menjadi dasar untuk menilai ukuran populasi yang harus dilayani oleh pemerintah daerah. Jumlah penduduk dapat disajikan dalam angka mutlak serta dibandingkan dengan periode sebelumnya untuk menunjukkan tren pertumbuhan atau penurunan.
 
-  1. **Angka Mutlak**: Tampilkan angka total penduduk Kabupaten Badung pada titik waktu tertentu dengan ukuran yang mencolok agar mudah terbaca dan dipahami.
+  - **Angka Mutlak**: Tampilkan angka total penduduk Kabupaten Badung pada titik waktu tertentu dengan ukuran yang mencolok agar mudah terbaca dan dipahami.
   
-  2. **Perbandingan dengan Periode Sebelumnya**: Sertakan perbandingan jumlah penduduk pada titik waktu tertentu dengan periode sebelumnya untuk menunjukkan tren pertumbuhan atau penurunan. Ini bisa berupa angka absolut atau persentase perubahan.
+  - **Perbandingan dengan Periode Sebelumnya**: Sertakan perbandingan jumlah penduduk pada titik waktu tertentu dengan periode sebelumnya untuk menunjukkan tren pertumbuhan atau penurunan. Ini bisa berupa angka absolut atau persentase perubahan.
   
-  3. **Grafik Tren**: Sertakan grafik atau diagram yang menunjukkan tren pertumbuhan penduduk dari waktu ke waktu. Grafik garis atau grafik batang dapat digunakan untuk memvisualisasikan tren tersebut dengan jelas.
+  - **Grafik Tren**: Sertakan grafik atau diagram yang menunjukkan tren pertumbuhan penduduk dari waktu ke waktu. Grafik garis atau grafik batang dapat digunakan untuk memvisualisasikan tren tersebut dengan jelas.
   
-  4. **Label**: Berikan label yang jelas pada angka mutlak dan data perbandingan untuk memudahkan pengguna dalam membaca dan memahami informasi.
+  - **Label**: Berikan label yang jelas pada angka mutlak dan data perbandingan untuk memudahkan pengguna dalam membaca dan memahami informasi.
   
-  5. **Warna yang Berbeda**: Gunakan warna yang berbeda untuk menyoroti tren pertumbuhan positif dan penurunan. Misalnya, gunakan warna hijau untuk pertumbuhan positif dan warna merah untuk penurunan.
+  - **Warna yang Berbeda**: Gunakan warna yang berbeda untuk menyoroti tren pertumbuhan positif dan penurunan. Misalnya, gunakan warna hijau untuk pertumbuhan positif dan warna merah untuk penurunan.
   
-  6. **Interaktivitas**: Sediakan opsi interaktif jika memungkinkan, seperti filter untuk memilih tahun tertentu atau fitur tooltip untuk menampilkan informasi lebih lanjut saat pengguna mengarahkan kursor ke angka atau grafik.
+  - **Interaktivitas**: Sediakan opsi interaktif jika memungkinkan, seperti filter untuk memilih tahun tertentu atau fitur tooltip untuk menampilkan informasi lebih lanjut saat pengguna mengarahkan kursor ke angka atau grafik.
   
   Berikut adalah contoh tampilan untuk Jumlah Penduduk Keseluruhan Kabupaten Badung:
   
@@ -48,17 +48,17 @@
 
 2. **Struktur Usia Penduduk**: Data demografis tentang struktur usia penduduk Kabupaten Badung menjadi penting untuk merencanakan kebutuhan sosial, kesehatan, dan ekonomi masyarakat. Ini mencakup informasi tentang jumlah dan persentase penduduk dalam setiap kelompok usia, mulai dari anak-anak, dewasa muda, hingga lansia. Informasi ini memungkinkan pemerintah untuk menyesuaikan layanan publik dan program sosial dengan kebutuhan spesifik dari masing-masing kelompok usia.
 
-  1. **Grafik Piramida Usia**: Gunakan grafik piramida usia untuk memvisualisasikan distribusi usia penduduk. Dalam grafik ini, bagian kiri menunjukkan populasi laki-laki sementara bagian kanan menunjukkan populasi perempuan. Setiap baris mewakili kelompok usia tertentu, dengan baris terbawah mewakili kelompok usia yang paling muda dan baris teratas mewakili kelompok usia yang paling tua.
+  - **Grafik Piramida Usia**: Gunakan grafik piramida usia untuk memvisualisasikan distribusi usia penduduk. Dalam grafik ini, bagian kiri menunjukkan populasi laki-laki sementara bagian kanan menunjukkan populasi perempuan. Setiap baris mewakili kelompok usia tertentu, dengan baris terbawah mewakili kelompok usia yang paling muda dan baris teratas mewakili kelompok usia yang paling tua.
   
-  2. **Warna yang Berbeda**: Gunakan warna yang berbeda untuk membedakan antara kelompok usia yang berbeda agar mudah dibaca dan dipahami.
+  - **Warna yang Berbeda**: Gunakan warna yang berbeda untuk membedakan antara kelompok usia yang berbeda agar mudah dibaca dan dipahami.
   
-  3. **Label**: Berikan label pada setiap kelompok usia untuk memudahkan pengguna dalam mengidentifikasi rentang usia masing-masing.
+  - **Label**: Berikan label pada setiap kelompok usia untuk memudahkan pengguna dalam mengidentifikasi rentang usia masing-masing.
   
-  4. **Persentase**: Tampilkan persentase dari total populasi untuk setiap kelompok usia untuk memberikan pemahaman yang lebih baik tentang proporsi penduduk dalam masing-masing kategori usia.
+  - **Persentase**: Tampilkan persentase dari total populasi untuk setiap kelompok usia untuk memberikan pemahaman yang lebih baik tentang proporsi penduduk dalam masing-masing kategori usia.
   
-  5. **Data Tambahan**: Jika relevan, tambahkan informasi tambahan seperti usia rata-rata, perbandingan dengan data usia pada periode sebelumnya, atau perbandingan dengan data usia di wilayah lain.
+  - **Data Tambahan**: Jika relevan, tambahkan informasi tambahan seperti usia rata-rata, perbandingan dengan data usia pada periode sebelumnya, atau perbandingan dengan data usia di wilayah lain.
   
-  6. **Interaktivitas**: Sediakan opsi interaktif jika memungkinkan, seperti filter untuk memilih tahun tertentu atau fitur tooltip untuk menampilkan informasi lebih lanjut saat pengguna mengarahkan kursor ke bagian grafik.
+  - **Interaktivitas**: Sediakan opsi interaktif jika memungkinkan, seperti filter untuk memilih tahun tertentu atau fitur tooltip untuk menampilkan informasi lebih lanjut saat pengguna mengarahkan kursor ke bagian grafik.
   
   Berikut adalah contoh tampilan untuk Struktur Usia Penduduk Kabupaten Badung menggunakan grafik piramida usia:
   
@@ -91,17 +91,17 @@
 
 3. **Komposisi Gender**: Data tentang komposisi gender penduduk, yakni jumlah dan persentase laki-laki dan perempuan, memberikan gambaran tentang dinamika populasi. Informasi ini digunakan untuk merencanakan program-program yang berkaitan dengan kesetaraan gender, kesehatan reproduksi, dan perlindungan terhadap kekerasan berbasis gender.
 
-  1. **Diagram Lingkaran (Pie Chart)**: Gunakan diagram lingkaran untuk memvisualisasikan perbandingan antara jumlah laki-laki dan perempuan secara proporsional. Setiap bagian dari diagram akan mewakili persentase populasi yang merupakan laki-laki atau perempuan.
+  - **Diagram Lingkaran (Pie Chart)**: Gunakan diagram lingkaran untuk memvisualisasikan perbandingan antara jumlah laki-laki dan perempuan secara proporsional. Setiap bagian dari diagram akan mewakili persentase populasi yang merupakan laki-laki atau perempuan.
   
-  2. **Warna yang Berbeda**: Gunakan warna yang berbeda untuk menyoroti laki-laki dan perempuan agar mudah dibedakan.
+  - **Warna yang Berbeda**: Gunakan warna yang berbeda untuk menyoroti laki-laki dan perempuan agar mudah dibedakan.
   
-  3. **Persentase**: Tampilkan persentase dari total populasi untuk laki-laki dan perempuan untuk memberikan pemahaman yang lebih baik tentang proporsi gender dalam populasi.
+  - **Persentase**: Tampilkan persentase dari total populasi untuk laki-laki dan perempuan untuk memberikan pemahaman yang lebih baik tentang proporsi gender dalam populasi.
   
-  4. **Label**: Berikan label pada setiap bagian dari diagram lingkaran untuk menunjukkan apakah itu mewakili laki-laki atau perempuan.
+  - **Label**: Berikan label pada setiap bagian dari diagram lingkaran untuk menunjukkan apakah itu mewakili laki-laki atau perempuan.
   
-  5. **Data Tambahan**: Jika relevan, tambahkan informasi tambahan seperti perbandingan dengan data gender pada periode sebelumnya atau data komparatif dengan wilayah lain dalam Kabupaten Badung.
+  - **Data Tambahan**: Jika relevan, tambahkan informasi tambahan seperti perbandingan dengan data gender pada periode sebelumnya atau data komparatif dengan wilayah lain dalam Kabupaten Badung.
   
-  6. **Interaktivitas**: Sediakan opsi interaktif jika memungkinkan, seperti tooltip yang menampilkan informasi lebih lanjut saat pengguna mengarahkan kursor ke bagian diagram.
+  - **Interaktivitas**: Sediakan opsi interaktif jika memungkinkan, seperti tooltip yang menampilkan informasi lebih lanjut saat pengguna mengarahkan kursor ke bagian diagram.
   
   Berikut adalah contoh tampilan untuk Komposisi Gender Penduduk Kabupaten Badung menggunakan diagram lingkaran:
   
